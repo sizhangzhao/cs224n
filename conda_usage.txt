@@ -1,0 +1,5 @@
+conda env create -f env.yml
+conda activate a2
+echo $CONDA_PREFIX
+conda deactivate
+conda env remove -n a2
